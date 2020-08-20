@@ -4,10 +4,11 @@ const StyledInput = styled.input`
   background: transparent;
   border: 0;
   width: 100%;
-  display: block;
-  color: white;
+  display: ${(props) => props.theme.mainDisplay};
+  height: 24px;
+  color: ${(props) => props.theme.secondaryColor};
   font-weight: lighter;
-  letter-spacing: 2px;
+  letter-spacing: ${(props) => props.theme.letterSpacing};
   margin-bottom: 30px;
   margin-right: 20px;
   outline: none;
@@ -21,8 +22,8 @@ font-weight:lighter;
 letter-spacing: 1px;
 font-size:15px;
 cursor:pointer;
-background:red;
-color:white;
+background:${(props) => props.theme.mainColor};
+color:${(props) => props.theme.secondaryColor};;
 font-weight:100;
 &;active{
   outline:none;

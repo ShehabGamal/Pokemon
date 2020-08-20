@@ -3,30 +3,32 @@ import styled from "styled-components";
 
 const Info = styled.div`
   width: 100%;
-  font-size: 20px;
+  font-size: ${(props) => props.theme.fontSize};
   font-weight: 200;
-  letter-spacing: 2px;
-  color: white;
+  letter-spacing: ${(props) => props.theme.letterSpacing};
+  color: ${(props) => props.theme.secondaryColor};
 `;
 const Holder = styled.div`
-  display: block;
+  display: ${(props) => props.theme.mainDisplay};
+  margin: ${(props) => props.theme.margin};
 `;
 const Fix = styled.span`
-  display: inline;
-  color: white;
-  padding: 10px;
-  margin: 10px 10px;
+  display: ${(props) => props.theme.secondaryDisplay};
+  color: ${(props) => props.theme.secondaryColor};
+  padding: ${(props) => props.theme.padding};
+  margin: ${(props) => props.theme.margin};
 `;
 const Presentation = styled.span`
-  display: block;
-  color: white;
-  padding: 10px;
-  margin: 10px 10px 10px 10px;
+  display: ${(props) => props.theme.mainDisplay};
+  color: ${(props) => props.theme.secondaryColor};
+  padding: ${(props) => props.theme.padding};
+  font-size: ${(props) => props.theme.fontSize};
+  margin: ${(props) => props.theme.margin};
 `;
 const Image = styled.img`
-  display: block;
-  padding: 10px;
-  margin: 15px 15px 15px 15px;
+  display: ${(props) => props.theme.mainDisplay};
+  padding: ${(props) => props.theme.padding};
+  margin: ${(props) => props.theme.margin};
 `;
 const Display = (props) => {
   console.log(props.info);

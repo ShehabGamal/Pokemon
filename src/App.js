@@ -5,7 +5,7 @@ import Display from "./Components/Display.js";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  background: red;
+  background: ${(props) => props.theme.mainColor};
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ const FormContainer = styled.div`
 `;
 
 const StyledHeader = styled.h1`
-  color: white;
+  color: ${(props) => props.theme.secondaryColor};
   font-size: 30px;
 `;
 
