@@ -1,5 +1,5 @@
 const Theme = {
-  mainColor: "#d14f4f",
+  mainColor: "#dd0426",
   secondaryColor: "white",
   fixedColor: "black",
   mainDisplay: "block",
