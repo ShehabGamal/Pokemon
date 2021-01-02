@@ -3,32 +3,32 @@ import styled from "styled-components";
 
 const Info = styled.div`
   width: 100%;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 200;
-  letter-spacing: 2px;
+  letter-spacing: 0.1982vh;
   color: ${(props) => props.theme.secondaryColor};
 `;
 const Holder = styled.div`
   display: block;
-  margin: 10px 10px 10px 10px;
+  margin: 0.99vh 0.99vh0.99vh 0.99vh;
 `;
 const Fix = styled.span`
   display: inline;
   color: ${(props) => props.theme.secondaryColor};
-  padding: 10px;
-  margin: 10px 10px 10px 10px;
+  padding: 0.99vh;
+  margin: 0.99vh 0.99vh 0.99vh 0.99vh;
 `;
 const Presentation = styled.span`
   display: block;
   color: ${(props) => props.theme.secondaryColor};
-  padding: 10px;
-  font-size: 20px;
-  margin: 10px 10px 10px 10px;
+  padding: 0.99vh;
+  font-size: 1.2vw;
+  margin: 0.99vh 0.99vh 0.99vh 0.99vh;
 `;
 const Image = styled.img`
   display: block;
-  padding: 10px;
-  margin: 10px 10px 10px 10px;
+  padding: 0.99vh;
+  margin: 0.99vh 0.99vh 0.99vh 0.99vh;
 `;
 const Display = (props) => {
   console.log(props.info);
@@ -49,7 +49,7 @@ const Display = (props) => {
         props.info.abilities[0].ability &&
         props.info.abilities[0].ability.name && (
           <Presentation>
-            ability: {props.info.abilities[0].ability.name}
+            Ability: {props.info.abilities[0].ability.name}
           </Presentation>
         )}
       {props.info.height && (

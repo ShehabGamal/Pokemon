@@ -12,17 +12,17 @@ const Wrapper = styled.div`
   align-items: center;
 `;
 const FormContainer = styled.div`
-  background: black;
+  background: ${(props) => props.theme.fixedColor};
   height: 70vh;
-  padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 9.9vh;
+  padding-left: 4.95vh;
+  padding-right: 4.95vh;
   margin: auto;
 `;
 
 const StyledHeader = styled.h1`
   color: ${(props) => props.theme.secondaryColor};
-  font-size: 30px;
+  font-size: 3vh;
 `;
 
 function App() {
