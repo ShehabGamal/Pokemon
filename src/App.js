@@ -5,14 +5,14 @@ import Display from "./Components/Display.js";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  background: ${(props) => props.theme.mainColor};
+  background: ${(props) => props.theme.fixedColor};
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 const FormContainer = styled.div`
-  background: ${(props) => props.theme.fixedColor};
+  background: ${(props) => props.theme.mainColor};
   height: 70vh;
   padding-top: 9.9vh;
   padding-left: 4.95vh;

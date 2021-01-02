@@ -22,7 +22,7 @@ const Presentation = styled.span`
   display: block;
   color: ${(props) => props.theme.secondaryColor};
   padding: 0.99vh;
-  font-size: 2.18vh;
+  font-size: 2.97vh;
   margin: 0.99vh 0.99vh 0.99vh 0.99vh;
 `;
 const Image = styled.img`

@@ -12,6 +12,9 @@ const StyledInput = styled.input`
   margin-bottom: 2.973vh;
   margin-right: 1.982vh;
   outline: none;
+  &::placeholder {
+    color: ${(props) => props.theme.secondaryColor};
+  }
 `;
 const StyledButton = styled.button`
 border:0;
@@ -22,7 +25,7 @@ font-weight:lighter;
 letter-spacing: 0.0991vh;
 font-size:1.4866vh;
 cursor:pointer;
-background:${(props) => props.theme.mainColor};
+background:${(props) => props.theme.fixedColor};
 color:${(props) => props.theme.secondaryColor};;
 font-weight:100;
 &;active{
