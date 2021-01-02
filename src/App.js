@@ -10,7 +10,6 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: scroll;
 `;
 const FormContainer = styled.div`
   background: ${(props) => props.theme.mainColor};
@@ -19,7 +18,6 @@ const FormContainer = styled.div`
   padding-left: 4.95vh;
   padding-right: 4.95vh;
   margin: auto;
-  overflow: scroll;
 `;
 
 const StyledHeader = styled.h1`
