@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Info = styled.div`
   width: 100%;
-  font-size: 1.5vw;
+  font-size: 2.97vh;
   font-weight: 200;
   letter-spacing: 0.1982vh;
   color: ${(props) => props.theme.secondaryColor};
@@ -22,7 +22,7 @@ const Presentation = styled.span`
   display: block;
   color: ${(props) => props.theme.secondaryColor};
   padding: 0.99vh;
-  font-size: 1.2vw;
+  font-size: 2.18vh;
   margin: 0.99vh 0.99vh 0.99vh 0.99vh;
 `;
 const Image = styled.img`
